@@ -1,11 +1,11 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
 
 const CounterScreen = () => {
     return (
-        <View>
+        <SafeAreaView>
             <Text>Hello World</Text>
-        </View>
+        </SafeAreaView>
     )
 }
 
